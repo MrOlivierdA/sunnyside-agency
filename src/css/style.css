@@ -58,6 +58,73 @@ body {
   font-size: 18px;
 }
 
+.main__container_six {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 600px);
+  grid-auto-flow: row;
+  grid-template-areas: "container-text1 container-image1" "container-image2 container-text2" "container-image3 container-image4";
+}
+
+h1 {
+  font-family: "Fraunces";
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 49px;
+  text-align: left;
+  margin-bottom: 32px;
+  color: #23303e;
+}
+
+p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+a {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #23303e;
+}
+
+.container-text1 {
+  grid-area: container-text1;
+  margin: 0 auto;
+  height: 98px;
+  width: 445px;
+}
+
+.container-text2 {
+  grid-area: container-text2;
+  margin: 0 auto;
+  height: 98px;
+  width: 445px;
+}
+
+.container-image1 {
+  grid-area: container-image1;
+}
+
+.container-image2 {
+  grid-area: container-image2;
+}
+
+.container-image3 {
+  grid-area: container-image3;
+}
+
+.container-image4 {
+  grid-area: container-image4;
+}
+
 .footer__container {
   background: #90D4C6;
   height: 350px;
