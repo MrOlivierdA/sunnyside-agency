@@ -94,9 +94,6 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.footer__container li {
-  list-style: none;
-}
 .footer__container nav {
   margin-bottom: 88px;
 }
