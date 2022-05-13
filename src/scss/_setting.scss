@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
 
 body{
-    width: 100%;
+    @media screen and (min-width: 1440px) {
+        width: 1400px;
+    }
     font-size: 18px;
 }
 
@@ -10,7 +12,7 @@ $yellow: #fad400;
 $cyandesaturated:  #25564b;
 $darkblue: #19536b;
 $moderatecyan: #90D4C6;
-$desaturatedblue: #23303e;
-$verydarkgrayishblue: #5a636c;
+$desaturatedblue: #24303E;
+$verydarkgrayishblue: #808397;
 $darkgrayishblue: #a7abae;
 $white: #ffffff;
