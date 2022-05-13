@@ -5,33 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="src/css/style.min.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
   </head>
   <body>
-    <header class="header">
-      <nav>
-        <!-- Logo -->
-        <section class="nav__logo"> <img src="src/img/logo.svg" alt="logo"></section>
-        <!-- Lien + button -->
-        <section class="nav__lien">
-          <ul>
-            <li><a href="https://becode.org/"></a>About</li>
-            <li><a href="https://becode.org/"></a>Services</li>
-            <li><a href="https://becode.org/"></a>Projects</li>
-            <li><a href="https://becode.org/"><div class="nav__button">Contact</div></a></li>
-          </ul>
-          <!-- button -->
-          
-        </section>
+    <header class="container">
+      <nav class="header__nav">
+        <div class="header__nav__logo">
+          <img src="/src/img/logo.svg" alt="Sunnyside Logo" />
+        </div>
+        <ul id='nav' class="header__hide">
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Projects</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+        <div id="header__nav__menu-icon">
+          <img src="/src/img/icons/icon-hamburger.svg" alt="">
+        </div>
       </nav>
-      <!-- image (orange) + texte -->
-       <div class="nav__arrow-to-bottom"><img src="/src/img/icons/icon-arrow-down.svg" alt="arrow down">
-       </div>
-       <div class="nav__img"><img src="/src/img/photos/image-header.jpg" alt="demis orange">
-        <section class="nav__img__texte"></section>We are creatives
+      <div class="header__hero">
+        <div class="header__hero__items">
+          <h1>We are creatives</h1>
+          <div class="header__hero__items__arrow"><img src="/src/img/icons/icon-arrow-down.svg" alt="">
+          </div>
+        </div>       
       </div>
     </header>
-    
+
     <main>
       <div class="main__container">
           <section class="image-texte__container">
@@ -92,13 +101,44 @@
               </section>
           </section>
   
-          <section class="main__gallery">
-              <div><img src="/src/img/photos/image-gallery-milkbottles.jpg" alt="bouteille lait"
-                        class="main__image-gallery"></div>
-              <div><img src="/src/img/photos/image-gallery-orange.jpg" alt="orange slide" class="main__image-gallery">
-              </div>
-              <div><img src="/src/img/photos/image-gallery-cone.jpg" alt="cornet " class="main__image-gallery"></div>
-              <div><img src="/src/img/photos/image-gallery-sugarcubes.jpg" alt="sucre" class="main__image-gallery"></div>
+          <section class="gallery">
+            <img
+              src="/src/img/photos/image-gallery-milkbottles.jpg"
+              alt=""
+              class="desktop"
+            />
+            <img
+              src="/src/img/photos/image-gallery-orange.jpg"
+              alt=""
+              class="desktop"
+            />
+            <img
+              src="/src/img/photos/image-gallery-cone.jpg"
+              alt=""
+              class="desktop"
+            />
+            <img
+              src="/src/img/photos/image-gallery-sugarcubes.jpg"
+              alt=""
+              class="desktop"
+            />
+    
+            <img
+              src="/src/img/photos/image-gallery-milkbottles.jpg"
+              alt=""
+              class="mobile"
+            />
+            <img
+              src="/src/img/photos/image-gallery-orange.jpg"
+              alt=""
+              class="mobile"
+            />
+            <img src="/src/img/photos/image-gallery-cone.jpg" alt="" class="mobile" />
+            <img
+              src="/src/img/photos/image-gallery-sugar-cubes.jpg"
+              alt=""
+              class="mobile"
+            />
           </section>
       </div>
   </main>
