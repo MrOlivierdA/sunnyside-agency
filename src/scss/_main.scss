@@ -158,9 +158,15 @@
   &__image {
 
     width: 375px;
+<<<<<<< HEAD
 
     img {
       width: 378px;
+=======
+    img 
+    {
+      width: 100%;
+>>>>>>> origin/Marlene
       height: auto;
     }
 
@@ -244,8 +250,63 @@
   }
 }
 
+<<<<<<< HEAD
 .main__testimonials {
   text-align: center;
+=======
+.main__testimonials
+{
+  text-align: center;
+  padding-top: 64px;
+  padding-left: 32px;
+  padding-right: 32px;
+  .h2 
+  {
+    font-family: 'Fraunces 9pt Soft';
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 4px;
+color: $verydarkgrayishblue;
+  }
+  .testimonials-img
+  {
+    margin-top: 64px;
+    width: 72px;
+    border-radius: 50%;
+  }
+  .testimonials__text
+{
+  text-align: center;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: $verydarkgrayishblue;
+  margin-top: 32px;
+}
+.testimonials__h3
+ {
+  font-family: 'Fraunces 9pt Soft';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  color: $desaturatedblue;
+  margin-top: 32px;
+ }
+ .testimonials__text--Role {
+  text-align: center;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  color: $darkgrayishblue;
+  margin-top: 9px;
+}
+>>>>>>> origin/Marlene
   
 
   h2 {
@@ -340,9 +401,60 @@ line-height: 25px;
     
   }
 }
+.testimonials__text--Role {
+  width: 350px;
+  text-align: center;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  color: $darkgrayishblue;
+  margin-top: 9px;
+}
 
+<<<<<<< HEAD
 .main__gallery {
   margin-top: 10px;
+=======
+.testimonials-card1
+{ 
+  grid-area: testimonials-card1;
+  width: 350;
+  margin: auto;
+}
+.testimonials-card2 
+{ 
+  grid-area: testimonials-card2; 
+  width: 350;
+  margin: auto;
+}
+.testimonials-card3 
+{ 
+  grid-area: testimonials-card3; 
+  width: 350;
+  margin: auto;
+}
+img {
+  border-radius: 50%;
+  width: 72px;
+  height: auto;
+}
+.testimonials__h3
+ {
+  font-family: 'Fraunces 9pt Soft';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  color: $desaturatedblue;
+  margin-top: 69px;
+ }
+}
+}
+.main__gallery
+{
+>>>>>>> origin/Marlene
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

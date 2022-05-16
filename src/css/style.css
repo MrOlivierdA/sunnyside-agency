@@ -219,7 +219,7 @@ body {
   width: 375px;
 }
 .card__image img {
-  width: 378px;
+  width: 100%;
   height: auto;
 }
 @media screen and (min-width: 1440px) {
@@ -292,6 +292,7 @@ body {
 
 .main__testimonials {
   text-align: center;
+<<<<<<< HEAD
 }
 .main__testimonials h2 {
   font-family: "Fraunces 9pt Soft";
@@ -313,13 +314,39 @@ body {
 }
 .main__testimonials .testimonials__text {
   width: 327px;
+=======
+  padding-top: 64px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.main__testimonials .h2 {
+  font-family: "Fraunces 9pt Soft";
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 4px;
+  color: #808397;
+}
+.main__testimonials .testimonials-img {
+  margin-top: 64px;
+  width: 72px;
+  border-radius: 50%;
+}
+.main__testimonials .testimonials__text {
+  text-align: center;
+>>>>>>> origin/Marlene
   font-family: "Barlow";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 32px;
+<<<<<<< HEAD
   color: #5B636D;
   margin: auto;
+=======
+  color: #808397;
+  margin-top: 32px;
+>>>>>>> origin/Marlene
 }
 .main__testimonials .testimonials__h3 {
   font-family: "Fraunces 9pt Soft";
@@ -327,9 +354,25 @@ body {
   font-weight: 900;
   font-size: 18px;
   line-height: 22px;
+<<<<<<< HEAD
   color: #458D7E;
   margin-top: 32px;
 }
+=======
+  color: #24303E;
+  margin-top: 32px;
+}
+.main__testimonials .testimonials__text--Role {
+  text-align: center;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  color: #a7abae;
+  margin-top: 9px;
+}
+>>>>>>> origin/Marlene
 @media screen and (min-width: 1440px) {
   .main__testimonials {
     margin: 0 auto;
@@ -358,6 +401,17 @@ body {
     font-size: 20px;
     line-height: 25px;
   }
+  .main__testimonials .testimonials__text--Role {
+    width: 350px;
+    text-align: center;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    color: #a7abae;
+    margin-top: 9px;
+  }
   .main__testimonials .testimonials-card1 {
     grid-area: testimonials-card1;
     width: 350px;
@@ -373,6 +427,23 @@ body {
     width: 350px;
     margin: auto;
   }
+<<<<<<< HEAD
+=======
+  .main__testimonials img {
+    border-radius: 50%;
+    width: 72px;
+    height: auto;
+  }
+  .main__testimonials .testimonials__h3 {
+    font-family: "Fraunces 9pt Soft";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #24303E;
+    margin-top: 69px;
+  }
+>>>>>>> origin/Marlene
 }
 
 .main__gallery {
