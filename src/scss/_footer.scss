@@ -46,19 +46,23 @@
         a 
         {
             text-decoration: none;
-            color: $verydarkgrayishblue;
+            color: $desaturatedblue;
             font-family: 'Barlow', sans-serif;
             font-weight: 600;
             font-size: 18px;
             line-height: 25px;            
             &:visited
             {
-                color: $verydarkgrayishblue;
+                color: $desaturatedblue;
                 text-decoration: none;
             }
             &:hover{
                 color: $white;
             }
         }
-    };
+    }
+    .svg:hover
+    {
+        color: $white;
+    }
 }
