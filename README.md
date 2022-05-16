@@ -1,4 +1,4 @@
 # sunnyside-agency
 
 Reproduction du site
-!()[src/img/desktop-preview.jpg]
+![img](src/img/desktop-preview.jpg)
