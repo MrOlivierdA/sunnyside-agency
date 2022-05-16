@@ -292,6 +292,54 @@ body {
   }
 }
 
+.main__testimonials {
+  text-align: center;
+  padding-top: 64px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.main__testimonials .h2 {
+  font-family: "Fraunces 9pt Soft";
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 4px;
+  color: #808397;
+}
+.main__testimonials .testimonials-img {
+  margin-top: 64px;
+  width: 72px;
+  border-radius: 50%;
+}
+.main__testimonials .testimonials__text {
+  text-align: center;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #808397;
+  margin-top: 32px;
+}
+.main__testimonials .testimonials__h3 {
+  font-family: "Fraunces 9pt Soft";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  color: #24303E;
+  margin-top: 32px;
+}
+.main__testimonials .testimonials__text--Role {
+  text-align: center;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  color: #a7abae;
+  margin-top: 9px;
+}
 @media screen and (min-width: 1440px) {
   .main__testimonials {
     margin: 168px auto;
@@ -323,6 +371,17 @@ body {
     line-height: 32px;
     color: #808397;
   }
+  .main__testimonials .testimonials__text--Role {
+    width: 350px;
+    text-align: center;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    color: #a7abae;
+    margin-top: 9px;
+  }
   .main__testimonials .testimonials-card1 {
     grid-area: testimonials-card1;
     width: 350;
@@ -350,6 +409,7 @@ body {
     font-size: 18px;
     line-height: 22px;
     color: #24303E;
+    margin-top: 69px;
   }
 }
 

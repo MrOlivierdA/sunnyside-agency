@@ -242,6 +242,56 @@
 
 .main__testimonials
 {
+  text-align: center;
+  padding-top: 64px;
+  padding-left: 32px;
+  padding-right: 32px;
+  .h2 
+  {
+    font-family: 'Fraunces 9pt Soft';
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 4px;
+color: $verydarkgrayishblue;
+  }
+  .testimonials-img
+  {
+    margin-top: 64px;
+    width: 72px;
+    border-radius: 50%;
+  }
+  .testimonials__text
+{
+  text-align: center;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: $verydarkgrayishblue;
+  margin-top: 32px;
+}
+.testimonials__h3
+ {
+  font-family: 'Fraunces 9pt Soft';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  color: $desaturatedblue;
+  margin-top: 32px;
+ }
+ .testimonials__text--Role {
+  text-align: center;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  color: $darkgrayishblue;
+  margin-top: 9px;
+}
   
   @media screen and (min-width: 1440px) {
   margin: 168px auto;
@@ -277,6 +327,17 @@
   line-height: 32px;
   color: $verydarkgrayishblue;
 }
+.testimonials__text--Role {
+  width: 350px;
+  text-align: center;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  color: $darkgrayishblue;
+  margin-top: 9px;
+}
 
 .testimonials-card1
 { 
@@ -309,6 +370,7 @@ img {
   font-size: 18px;
   line-height: 22px;
   color: $desaturatedblue;
+  margin-top: 69px;
  }
 }
 }
